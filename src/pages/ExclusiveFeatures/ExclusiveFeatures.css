@@ -1,0 +1,8 @@
+
+.exclusive-features {
+  @apply py-16 px-4 bg-gradient-to-b from-shamir-darker to-shamir-dark relative overflow-hidden -mt-1;
+}
+
+.spotlight-icon {
+  @apply text-shamir-neon mb-5 transition-transform duration-300;
+}

@@ -1,0 +1,16 @@
+
+.how-it-works-section {
+  @apply py-16 px-4 bg-gradient-to-b from-shamir-darker to-shamir-dark relative overflow-hidden;
+}
+
+.timeline-step {
+  @apply flex flex-col items-center text-center relative;
+}
+
+.step-icon {
+  @apply w-16 h-16 rounded-full bg-shamir-darker border border-shamir-neon/30 flex items-center justify-center mb-3 shadow-[0_0_15px_rgba(0,245,160,0.2)] transition-all duration-300;
+}
+
+.step-number {
+  @apply absolute -top-2 -right-2 w-6 h-6 rounded-full bg-shamir-neon text-black flex items-center justify-center text-sm font-bold z-20;
+}

@@ -1,0 +1,16 @@
+
+.footer-section {
+  @apply py-16 px-4 bg-shamir-darker relative;
+}
+
+.footer-button {
+  @apply px-6 py-3 rounded-lg font-medium transition-all flex items-center justify-center group;
+}
+
+.social-link {
+  @apply w-10 h-10 flex items-center justify-center rounded-full border border-white/10 text-gray-400 hover:text-shamir-neon hover:border-shamir-neon/50 hover:shadow-[0_0_10px_rgba(0,245,160,0.2)] transition-all;
+}
+
+.legal-link {
+  @apply hover:text-shamir-neon transition-colors flex items-center;
+}

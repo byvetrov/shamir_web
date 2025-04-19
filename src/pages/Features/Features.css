@@ -1,0 +1,12 @@
+
+.features-section {
+  @apply py-24 px-4 bg-gradient-to-b from-shamir-dark to-shamir-darker relative overflow-hidden;
+}
+
+.feature-card {
+  @apply bg-shamir-darker/60 backdrop-blur-md rounded-xl p-6 border border-white/5;
+}
+
+.feature-icon {
+  @apply mb-5 text-shamir-neon inline-flex p-3 rounded-lg bg-shamir-neon/10;
+}

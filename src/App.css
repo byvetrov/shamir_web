@@ -1,0 +1,80 @@
+
+#root {
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Reset for better full-width layout */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Container sizing for consistent padding */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Standard spacing system */
+.space-vertical-xs { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+.space-vertical-sm { margin-top: 1rem; margin-bottom: 1rem; }
+.space-vertical-md { margin-top: 1.5rem; margin-bottom: 1.5rem; }
+.space-vertical-lg { margin-top: 2rem; margin-bottom: 2rem; }
+.space-vertical-xl { margin-top: 3rem; margin-bottom: 3rem; }
+
+.space-horizontal-xs { margin-left: 0.5rem; margin-right: 0.5rem; }
+.space-horizontal-sm { margin-left: 1rem; margin-right: 1rem; }
+.space-horizontal-md { margin-left: 1.5rem; margin-right: 1.5rem; }
+.space-horizontal-lg { margin-left: 2rem; margin-right: 2rem; }
+.space-horizontal-xl { margin-left: 3rem; margin-right: 3rem; }
+
+/* Responsive typography adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Ensure buttons have proper styles */
+button, .button {
+  cursor: pointer;
+
+  border-radius: 8px;
+}
+
+/* Consistent shadows */
+.shadow-standard {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Consistent rounded corners */
+.rounded-standard {
+  border-radius: 8px;
+}
+
+.rounded-large {
+  border-radius: 12px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}

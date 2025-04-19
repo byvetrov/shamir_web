@@ -1,0 +1,12 @@
+
+.hero-section {
+  @apply relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden;
+}
+
+.hero-logo {
+  @apply w-16 h-16 rounded-xl bg-gradient-to-br from-shamir-neon to-shamir-blue flex items-center justify-center shadow-[0_0_20px_rgba(0,245,160,0.3)];
+}
+
+.hero-pattern {
+  @apply w-full max-w-md mx-auto h-12 relative opacity-60;
+}

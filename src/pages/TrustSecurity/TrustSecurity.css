@@ -1,0 +1,12 @@
+
+.trust-section {
+  @apply py-24 px-4 bg-gradient-to-b from-shamir-dark to-shamir-darker relative overflow-hidden;
+}
+
+.security-badge {
+  @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 text-center;
+}
+
+.badge-icon {
+  @apply inline-flex items-center justify-center bg-shamir-neon/10 text-shamir-neon w-12 h-12 rounded-full mb-4;
+}
