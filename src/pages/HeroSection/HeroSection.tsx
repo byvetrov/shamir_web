@@ -35,7 +35,7 @@ const HeroSection = () => {
     }, []);
 
     return (
-        <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden pt-16">
+        <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-x-hidden pt-16">
             <div className="absolute inset-0 z-0">
                 <ParticleNetwork/>
             </div>

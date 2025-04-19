@@ -12,7 +12,7 @@ interface SpotlightCardProps {
 
 const SpotlightCard = ({ icon, title, description, delay = 0 }: SpotlightCardProps) => {
   return (
-      <div className="relative group p-6 rounded-xl overflow-hidden transition-all duration-300 ease-in-out will-change-transform hover:-translate-y-1">
+      <div className="relative group p-6 rounded-xl overflow-x-hidden transition-all duration-300 ease-in-out will-change-transform hover:-translate-y-1">
         <div className="absolute inset-0 bg-gradient-to-br from-shamir-neon/5 to-shamir-blue/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out rounded-xl"></div>
         <div className="absolute inset-0 bg-white/5 backdrop-blur-sm border border-white/5 rounded-xl group-hover:border-white/10 transition-colors duration-300 ease-in-out"></div>
         

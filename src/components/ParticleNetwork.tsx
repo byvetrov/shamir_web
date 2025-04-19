@@ -102,7 +102,7 @@ const ParticleNetwork = () => {
   return (
     <canvas 
       ref={canvasRef} 
-      className="absolute inset-0 w-full h-full opacity-70"
+      className="absolute inset-0 w-full h-full opacity-70 pointer-events-none"
     />
   );
 };

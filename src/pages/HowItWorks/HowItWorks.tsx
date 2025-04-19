@@ -54,7 +54,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-16 md:py-20 px-4 bg-shamir-darker relative overflow-hidden">
+    <section id="how-it-works" className="py-16 md:py-20 px-4 bg-shamir-darker relative overflow-x-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(0,245,160,0.05),transparent_40%),radial-gradient(circle_at_70%_70%,rgba(14,165,233,0.05),transparent_25%)]"></div>
       
       <div className="container mx-auto relative z-10">
